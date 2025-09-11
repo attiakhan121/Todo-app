@@ -9,7 +9,10 @@
   "title",
   "description",
   "status",
-  "due_date"
+  "due_date",
+  "id",
+  "text",
+  "done"
  ],
  "fields": [
   {
@@ -36,12 +39,28 @@
    "fieldname": "due_date",
    "fieldtype": "Date",
    "label": "Due Date"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "id"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Small Text",
+   "label": "text"
+  },
+  {
+   "default": "0",
+   "fieldname": "done",
+   "fieldtype": "Check",
+   "label": "done"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-09 12:28:46.594994",
+ "modified": "2025-09-11 16:04:24.683898",
  "modified_by": "Administrator",
  "module": "todo",
  "name": "Todo item",
