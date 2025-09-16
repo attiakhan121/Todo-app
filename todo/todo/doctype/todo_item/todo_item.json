@@ -60,7 +60,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-11 16:04:24.683898",
+ "modified": "2025-09-15 12:13:01.966086",
  "modified_by": "Administrator",
  "module": "todo",
  "name": "Todo item",
@@ -75,6 +75,7 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   }
